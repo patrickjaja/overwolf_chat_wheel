@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/ingame.css" />
+    <link rel="stylesheet" href="../../css/modal.css" />
+    <title>Overwolf Sample App - In-Game page</title>
+  </head>
+  <body class="in-game">
+    <!-- -------------------------------- Header ------------------------------- -->
+
+<!--    <header class="app-header">
+      <img src="../../img/header_icon.svg" />
+      <h1>Sample App / in-game window</h1>
+      <h1 style="margin: auto;">
+        Show/Hide Hotkey:
+        <span id="hotkey" style="font-weight: bold; color: white;"></span>
+      </h1>
+      <div class="window-controls-group">
+        <button class="icon window-control support">
+          <svg>
+            <use xlink:href="/img/header_icons.svg#window-control_support" />
+          </svg>
+          <div class="tooltip">
+            <a target="_blank" href="https://discord.gg/v5cfBTq"
+              >Talk to us on Discord</a
+            ><br />
+            <a target="_blank" href="http://support.overwolf.com/"
+              >FAQ page at Overwolf</a
+            >
+            <hr />
+            <h3>Social Media</h3>
+            <div class="socialIcons">
+              <a target="_blank" href="https://twitter.com/theoverwolf">
+                <img src="../../img/twitter.svg" />
+              </a>
+              <a target="_blank" href="https://www.facebook.com/Overwolf/">
+                <img src="../../img/facebook.svg" />
+              </a>
+              <a target="_blank" href="https://www.reddit.com/r/Overwolf/">
+                <img src="../../img/reddit.png" />
+              </a>
+            </div>
+          </div>
+        </button>
+        <a class="icon window-control" href="overwolf://settings/hotkeys">
+          <svg>
+            <use xlink:href="/img/header_icons.svg#window-control_settings" />
+          </svg>
+        </a>
+        <button class="icon window-control" id="minimizeButton">
+          <svg>
+            <use xlink:href="/img/header_icons.svg#window-control_minimize" />
+          </svg>
+        </button>
+        <button
+          class="icon window-control window-control-close"
+          id="closeButton"
+        >
+          <svg>
+            <use xlink:href="/img/header_icons.svg#window-control_close" />
+          </svg>
+        </button>
+      </div>
+    </header>-->
+
+    <!-- --------------------------------- Main -------------------------------- -->
+    <main>
+      <div class="container">
+        <div class="component">
+          <h2>Hi</h2>
+          <!-- Start Nav Structure -->
+          <button class="cn-button" id="cn-button">Menu</button>
+          <div class="cn-wrapper" id="cn-wrapper">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Home</span>
+                  <svg class="caticon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       width="35px" height="70px" viewBox="0 0 512 512" enable-background="new 0 0 50 50" xml:space="preserve">
+              <path fill="white" id="shop-3-icon" d="M79.792,217.25v235h352.75v-235H79.792z M397.542,381.75h-282.75v-129.5h282.75V381.75z M220.62,59.75
+                                        l-17.798,85.332h-0.081v17.34c0,18.314-14.847,33.161-33.161,33.161s-33.16-14.847-33.16-33.161v-17.34l50.841-85.332H220.62z
+                                        M168.232,59.75l-51.91,85.332v17.34c0,18.314-14.847,33.161-33.161,33.161S50,180.736,50,162.422v-17.34l83.666-85.332H168.232z
+                                        M462,145.082v17.34c0,18.314-14.847,33.161-33.161,33.161s-33.161-14.847-33.161-33.161v-17.34l-51.91-85.332h34.566L462,145.082z
+                                        M289.08,145.082h0.081v17.34c0,18.314-14.847,33.161-33.161,33.161s-33.161-14.847-33.161-33.161v-17.34h0.081l16.729-85.332
+                                        h32.703L289.08,145.082z M324.739,59.75l50.841,85.332v17.34c0,18.314-14.846,33.161-33.16,33.161s-33.161-14.847-33.161-33.161
+                                        v-17.34h-0.081L291.38,59.75H324.739z"/>
+            </svg>
+                </a>
+              </li>
+              <li><a href="#"><span>Push</span></a></li>
+              <li><a href="#"><span>Attack</span></a></li>
+              <li><a href="#"><span>[ALL] Well played</span></a></li>
+              <li><a href="#"><span>Care</span></a></li>
+              <li><a href="#"><span>Get Back</span></a></li>
+              <li><a href="#"><span>Need reval</span></a></li>
+              <li><a href="#"><span>Game is hard</span></a></li>
+              <li><a href="#"><span>Current Time</span></a></li>
+              <li><a href="#"><span>Help</span></a></li>
+              <li><a href="#"><span>[ALL] GGWP</span></a></li>
+              <li><a href="#"><span>Don't give up</span></a></li>
+            </ul>
+          </div>
+          <!-- End of Nav Structure -->
+        </div>
+      </div>
+    </main>
+
+    <!-- -------------------------------- Modal -------------------------------- -->
+    <div id="exitMinimizeModal" class="modal">
+      <div class="modal-content">
+        <h3>Exit the app?</h3>
+        <p>
+          Exiting the app will close all the app windows and terminate the app
+          process.<br />
+          <br />
+          Are you sure?
+        </p>
+        <span class="buttonBar">
+          <button id="minimize" class="modalButton">
+            Minimize
+          </button>
+          <button id="exit" class="modalButton">
+            Exit
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <script src="../../lib/require.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>-->
+
+    <script>
+      require(["in-game-controller"], function(InGameController) {
+
+        console.log(`[INIT] in-game module loaded`);
+        const inGameController = new InGameController();
+        inGameController.run();
+      }, function(error) {
+        console.log(`[INIT] failed to load in-game module ${error}`);
+      });
+    </script>
+  </body>
+</html>
