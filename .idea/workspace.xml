@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a887cf-4203-4cfa-85b6-0c897514d1ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
       <workItem from="1588712444547" duration="14456000" />
       <workItem from="1588726921440" duration="2372000" />
       <workItem from="1588849989493" duration="18480000" />
+      <workItem from="1588877632924" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="since reforged is supported i have updated the code">
       <created>1588850131290</created>
@@ -125,10 +126,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588857984752" />
-    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1588877585375">
+    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1588877591105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877585375" />
+    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877591105" />
     <state x="376" y="199" key="SettingsEditor" timestamp="1588855938815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -137,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588873769288" />
-    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588877553968">
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588877592177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877553968" />
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877592177" />
     <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588873652908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
