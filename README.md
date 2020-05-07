@@ -1,4 +1,4 @@
-# Overwolf sample app
+# Warcraft 3 - Reforged - Chat Wheel
 
 
 ![POC Chat wheel](poc_wc3_chat_wheel.gif)

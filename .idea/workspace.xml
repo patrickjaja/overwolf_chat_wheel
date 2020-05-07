@@ -81,7 +81,7 @@
       <workItem from="1588712444547" duration="14456000" />
       <workItem from="1588726921440" duration="2372000" />
       <workItem from="1588849989493" duration="18480000" />
-      <workItem from="1588877632924" duration="289000" />
+      <workItem from="1588877632924" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="since reforged is supported i have updated the code">
       <created>1588850131290</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588877832111</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="since reforged is supported i have updated the code">
+      <created>1588877930438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588877930438</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,10 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588857984752" />
-    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1588877831768">
+    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1588877930098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877831768" />
+    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877930098" />
     <state x="376" y="199" key="SettingsEditor" timestamp="1588855938815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,10 +166,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588873769288" />
-    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588877832835">
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588877931233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877832835" />
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877931233" />
     <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588873652908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
