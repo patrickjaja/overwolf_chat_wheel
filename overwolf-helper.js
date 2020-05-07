@@ -6,9 +6,7 @@ export default class OverwolfHelper {
 
   sendKeyStrokes(commands) {
     commands.forEach((command) => {
-      window.setTimeout(function() {
         overwolf.utils.sendKeyStroke(command);
-      }, 100);
       this.log(command);
     });
     return commands;
