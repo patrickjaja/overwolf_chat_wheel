@@ -3,6 +3,8 @@
 
 ![POC Chat wheel](poc_wc3_chat_wheel.gif)
 
+WC3 - Chat Wheel integration based on Overwolf abstraction layer.
+Can be used to send messages to ally or enemy chat.
 
 Issues:
  - keys not getting sent in correct order
