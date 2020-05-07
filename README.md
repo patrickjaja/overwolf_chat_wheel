@@ -12,6 +12,7 @@ Issues:
  - Cant use special chars like "!"
  - Overwolf window to current mousePosition
  - activate chatwheel on overwolf hotkeypress (maybe open/close on longpress)
+ - overwolfs sendKeyStroke doesnt allow emojis 😃 but wc3 allows (https://unicode.org/emoji/charts/full-emoji-list.html)
  
 Credits:
  - https://github.com/t1m0n/wheel-menu (base functionality)
