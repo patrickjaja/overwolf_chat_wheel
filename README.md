@@ -5,6 +5,7 @@
 
 
 Issues:
+ - keys not getting sent in correct order
  - Cant use special chars like "!"
  - Overwolf window to current mousePosition
- - activate chatwheel on overwolf hotkeypress
+ - activate chatwheel on overwolf hotkeypress (maybe open/close on longpress)
