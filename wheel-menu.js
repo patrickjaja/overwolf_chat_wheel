@@ -25,7 +25,7 @@ export default class WheelMenu {
                     'Here'
                 ]
             };
-        this.opts = extend({}, defaults, params);
+        this.opts = this.extend({}, defaults, params);
 
         this.doc = document;
         this.el = this.doc.querySelector(el);
@@ -67,10 +67,9 @@ export default class WheelMenu {
 
         this.createItemsDOM();
         this._saveCursorDimensions();
-
-        this.el.addEventListener('touchstart', this.onMouseDown.bind(this));
-        this.$html.addEventListener('touchend', this.onMouseUp.bind(this));
-        this.$html.addEventListener('touchmove', this.onMouseMove.bind(this));
+        // this.el.addEventListener('touchstart', this.onMouseDown.bind(this));
+        // this.$html.addEventListener('touchend', this.onMouseUp.bind(this));
+        // this.$html.addEventListener('touchmove', this.onMouseMove.bind(this));
 
         this.el.addEventListener('mousedown', this.onMouseDown.bind(this));
         this.$html.addEventListener('mouseup', this.onMouseUp.bind(this));
@@ -347,11 +346,6 @@ export default class WheelMenu {
     defineCoordsCenter (e) {
         this.centerX = e.pageX;
         this.centerY = e.pageY;
-        // mobile
-        if (typeof e.touches[0].pageX !== undefined) {
-            this.centerX = e.touches[0].pageX;
-            this.centerY = e.touches[0].pageY;
-        }
     }
 
     /**
@@ -413,12 +407,6 @@ export default class WheelMenu {
     saveCurrentMousePosition (event) {
         this.currentX = event.pageX;
         this.currentY = event.pageY;
-
-        // mobile
-        if (typeof event.touches[0].pageX !== undefined) {
-            this.currentX = event.touches[0].pageX;
-            this.currentY = event.touches[0].pageY;
-        }
     }
 
     defineVector () {
@@ -555,10 +543,6 @@ export default class WheelMenu {
     // -------------------------------------------------
 
     onMouseDown (e) {
-        //e.preventDefault();
-
-        //if (e.which !== 1) return;
-
         this.defineCoordsCenter(e);
         this.saveCurrentMousePosition(e);
         this.defineVector();
@@ -570,7 +554,7 @@ export default class WheelMenu {
 
         if (this.currentActive && this.opts.onChange) {
             var index = this.cache.indexOf(this.currentActive);
-            this.opts.onChange(this.opts.items[index]);
+            this.opts.onChange(this.keyStrokeParser(this.opts.items[index]));
         }
 
         this.hide();
@@ -578,8 +562,6 @@ export default class WheelMenu {
 
     onMouseMove (e) {
         if (this.visible) {
-            //e.preventDefault();
-
             this.saveCurrentMousePosition(e);
             this.defineVector();
             this.setCursorPosition();
@@ -594,5 +576,26 @@ export default class WheelMenu {
                 this.intersection();
             }
         }
+    }
+
+    extend (target) {
+        target = arguments[0];
+
+        var objects = Array.prototype.splice.call(arguments,1);
+
+        objects.forEach(function (obj) {
+            for(var prop in obj) {
+                target[prop] = obj[prop]
+            }
+        });
+
+        return target;
+    }
+
+    keyStrokeParser(value) {
+        if (value === 'Current Time') {
+            value = (new Date()).toLocaleTimeString();
+        }
+        return value;
     }
 }

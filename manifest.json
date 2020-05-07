@@ -29,10 +29,10 @@
         "default": "Ctrl+F"
       }
     },
-    "start_window": "index",
+    "start_window": "chat_wheel",
     "windows": {
-      "index": {
-        "file": "index.html",
+      "chat_wheel": {
+        "file": "chat_wheel.html",
         "transparent": true,
         "resizable": false,
         "show_in_taskbar": true,

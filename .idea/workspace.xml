@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99a887cf-4203-4cfa-85b6-0c897514d1ee" name="Default Changelist" comment="" />
+    <list default="true" id="99a887cf-4203-4cfa-85b6-0c897514d1ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/overwolf-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overwolf-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wc3-helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat_wheel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc_dota.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wheel-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/wheel-menu.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +42,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\werew\Documents\OverDev\Warcraft3\basic-events\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1bVLipx8EMVJKfubUWwCuosib0V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,25 +90,50 @@
       <updated>1588712443415</updated>
       <workItem from="1588712444547" duration="14456000" />
       <workItem from="1588726921440" duration="2372000" />
+      <workItem from="1588849989493" duration="18367000" />
     </task>
+    <task id="LOCAL-00001" summary="since reforged is supported i have updated the code">
+      <created>1588850131290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588850131290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="since reforged is supported i have updated the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="since reforged is supported i have updated the code" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588718830223">
+    <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588857984752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588718830223" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1588719332037">
+    <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588857984752" />
+    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1588850130244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588719332037" />
-    <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588727611818">
+    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588850130244" />
+    <state x="376" y="199" key="SettingsEditor" timestamp="1588855938815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588727611818" />
+    <state x="376" y="199" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588855938815" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588873769288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588873769288" />
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588850133899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588850133899" />
+    <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588873652908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588873652908" />
     <state x="692" y="396" key="com.intellij.ide.util.TipDialog" timestamp="1588850009801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
