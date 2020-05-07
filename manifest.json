@@ -1,0 +1,65 @@
+{
+  "manifest_version": "1",
+  "type": "WebApp",
+  "meta": {
+    "name": "Sample App",
+    "version": "0.0.1",
+    "minimum-overwolf-version": "0.120.1.0",
+    "author": "Overwolf",
+    "icon": "icon.png",
+    "icon_gray": "icon_gray.png",
+    "description": "Game Events Consumer Sample"
+  },
+  "permissions": [
+    "Hotkeys",
+    "GameInfo",
+    "GameControl"
+  ],
+  "data": {
+    "game_targeting": {
+      "type": "dedicated",
+      "game_ids": [
+        21638
+      ]
+    },
+    "hotkeys": {
+      "sample_app_showhide": {
+        "title": "Show/Hide In-Game Window",
+        "action-type": "toggle",
+        "default": "Ctrl+F"
+      }
+    },
+    "start_window": "index",
+    "windows": {
+      "index": {
+        "file": "index.html",
+        "transparent": true,
+        "resizable": false,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "min_size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "max_size": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    },
+    "game_events": [21638],
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [
+            216381
+          ]
+        },
+        "start_minimized": false
+      }]
+}
+}
