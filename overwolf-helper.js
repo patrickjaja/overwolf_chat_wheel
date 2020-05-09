@@ -5,8 +5,12 @@ export default class OverwolfHelper {
   }
 
   sendKeyStrokes(commands) {
+    let delay = 100;
     commands.forEach((command) => {
-        overwolf.utils.sendKeyStroke(command);
+        setTimeout(()=> {
+          overwolf.utils.sendKeyStroke(command);
+        }, delay);
+        delay +=5;
       this.log(command);
     });
     return commands;

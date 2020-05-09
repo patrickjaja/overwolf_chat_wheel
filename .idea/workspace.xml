@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99a887cf-4203-4cfa-85b6-0c897514d1ee" name="Default Changelist" comment="">
+    <list default="true" id="99a887cf-4203-4cfa-85b6-0c897514d1ee" name="Default Changelist" comment="since reforged is supported i have updated the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overwolf-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/overwolf-helper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,8 @@
       <workItem from="1588712444547" duration="14456000" />
       <workItem from="1588726921440" duration="2372000" />
       <workItem from="1588849989493" duration="18480000" />
-      <workItem from="1588877632924" duration="325000" />
+      <workItem from="1588877632924" duration="1180000" />
+      <workItem from="1589024599617" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="since reforged is supported i have updated the code">
       <created>1588850131290</created>
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588877930438</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="since reforged is supported i have updated the code">
+      <created>1588877962666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588877962666</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,10 +162,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="373" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588857984752" />
-    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1588877930098">
+    <state x="607" y="166" key="CommitChangelistDialog2" timestamp="1589028133249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877930098" />
+    <state x="607" y="166" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589028133249" />
     <state x="376" y="199" key="SettingsEditor" timestamp="1588855938815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,18 +174,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588873769288" />
-    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588877931233">
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2" timestamp="1588877963418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877931233" />
+    <state x="587" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588877963418" />
     <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588873652908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="248" y="189" width="1339" height="696" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588873652908" />
-    <state x="692" y="396" key="com.intellij.ide.util.TipDialog" timestamp="1588850009801">
+    <state x="692" y="396" key="com.intellij.ide.util.TipDialog" timestamp="1589024599551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="396" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588850009801" />
+    <state x="692" y="396" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589024599551" />
     <state x="621" y="309" width="607" height="536" key="find.popup" timestamp="1588717568898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
