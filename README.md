@@ -6,6 +6,13 @@
 WC3 - Chat Wheel integration based on Overwolf abstraction layer.
 Can be used to send messages to ally or enemy chat.
 
+Planned:
+ - Customization
+ - Leet mode (Lvl 1-9)
+ - Multi Wheels
+ - Config interface
+ - Multi Game Integration (based on Overwolf GameID)
+ 
 Issues:
  - keys not getting sent in correct order
  - Only Open Wheel on hotkey usage (currently its attached to gameinfo event)
